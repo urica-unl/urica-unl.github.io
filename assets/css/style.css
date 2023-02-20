@@ -123,12 +123,13 @@ ul li::before {
 }
 
 .speaker {
+	display: table;
   overflow: hidden;
 }
 
 .speaker person{
   height: auto; /*was 200px*/
-  display: flex;
+  display: table-cell; /*was flex*/
   align-items: center;
   color: black;
   text-align: left;
@@ -141,10 +142,10 @@ ul li::before {
 }
 
 .speaker time{
-    height: 200px; /*was 100*/
+    height: auto; /*was 200px*/
     width: 120px;
   float: left;
-  display: flex;
+  display: table-cell; /* was flex */
   align-items: center;
   justify-items: center;
   border-top: 2px solid  #A9A9A9;
