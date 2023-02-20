@@ -124,6 +124,7 @@ ul li::before {
 
 .speaker {
   display: flex;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -144,6 +145,7 @@ ul li::before {
 
 .speaker time{
     /*height: 200px;*/
+  min-width:120px;
   width: 120px;
   float: left;
   display: flex;
