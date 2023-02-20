@@ -127,7 +127,7 @@ ul li::before {
 }
 
 .speaker person{
-  height: 200px; /*was 100*/
+  height: auto; /*was 200px*/
   display: flex;
   align-items: center;
   color: black;
