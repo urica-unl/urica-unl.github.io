@@ -134,7 +134,7 @@ ul li::before {
   text-align: left;
   border-top: 2px solid  #A9A9A9;
   border-bottom: 2px solid  #A9A9A9;
-  padding: 5px;
+  padding: 15px; /*was 5 */
   /*background-color: #ADD8E6;*/
   background-color: #F5F5DC;
   line-height: 2;
