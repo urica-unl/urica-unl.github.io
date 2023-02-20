@@ -141,7 +141,7 @@ ul li::before {
 }
 
 .speaker time{
-    height: 100px;
+    height: 200px; /*was 100*/
     width: 120px;
   float: left;
   display: flex;
