@@ -127,10 +127,10 @@ ul li::before {
   overflow: hidden;
 }
 
-.person{ /*was .speaker person{ */ 
-  height: auto; /*was 200px*/
+.speaker person{ 
+  height: 200px
   width:100%; 
-  display: table-cell; /*was flex*/
+  display: flex;
   align-items: center;
   color: black;
   text-align: left;
@@ -142,11 +142,11 @@ ul li::before {
   line-height: 2;
 }
 
-.time{ /*was .speaker time{ */
-    height: auto; /*was 200px*/
+.speaker time{
+    height: 200px;
     width: 120px;
   float: left;
-  display: table-cell; /* was flex */
+  display: flex;
   align-items: center;
   justify-items: center;
   border-top: 2px solid  #A9A9A9;
