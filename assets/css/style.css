@@ -144,6 +144,10 @@ ul li::before {
   line-height: 2;
 }
 
+.speaker p{
+margin-left:20px;	
+}
+
 .speaker time{
     /*height: 200px;*/
   min-width:120px;
