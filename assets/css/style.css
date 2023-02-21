@@ -131,9 +131,8 @@ ul li::before {
 .speaker person{ 
   /*height: 200px;*/
   display: flex;
-  flex-direction: column;
   width: 100%;
-  align-items: left; /*was center */
+  align-items: center; 
   color: black;
   text-align: left;
   border-top: 2px solid  #A9A9A9;
