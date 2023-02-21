@@ -140,7 +140,7 @@ ul li::before {
   border-right: 2px solid #A9A9A9;
   padding: 5px; 
   /*background-color: #ADD8E6;*/
-  background-color: #FAF0E6;
+  background-color: #FFFFE0;
   line-height: 2;
 }
 
@@ -179,7 +179,7 @@ ul li::before {
   color: black;
   padding: 5px;
   text-decoration: none;
-  background-color: #DCDCDC;
+  background-color: #FAF0E6; /* was #DCDCDC */
   z-index: 2;
 }
 
