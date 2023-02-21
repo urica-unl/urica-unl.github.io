@@ -133,7 +133,7 @@ ul li::before {
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: center;
+  align-items: left; /*was center */
   color: black;
   text-align: left;
   border-top: 2px solid  #A9A9A9;
@@ -168,7 +168,7 @@ ul li::before {
   z-index: 2;
 }
 
-.speaker
+
 
 
 
