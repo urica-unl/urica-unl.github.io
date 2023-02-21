@@ -128,7 +128,7 @@ ul li::before {
   overflow: hidden;
 }
 
-.speaker person{ 
+.speaker person1{ 
   /*height: 200px;*/
   display: flex;
   width: 100%;
@@ -141,6 +141,22 @@ ul li::before {
   padding: 5px; 
   /*background-color: #ADD8E6;*/
   background-color: #F5F5DC;
+  line-height: 2;
+}
+
+.speaker person2{  /*The only difference between this amd person1 is background color*/
+  /*height: 200px;*/
+  display: flex;
+  width: 100%;
+  align-items: center; 
+  color: black;
+  text-align: left;
+  border-top: 2px solid  #A9A9A9;
+  border-bottom: 2px solid  #A9A9A9;
+  border-right: 2px solid #A9A9A9;
+  padding: 5px; 
+  /*background-color: #ADD8E6;*/
+  background-color: #FFFAF0;
   line-height: 2;
 }
 
