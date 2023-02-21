@@ -164,6 +164,7 @@ ul li::before {
   padding: 5px;
   text-decoration: none;
   background-color: #DCDCDC;
+  z-index: 2;
 }
 
 
