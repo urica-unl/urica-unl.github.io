@@ -179,7 +179,7 @@ ul li::before {
   color: black;
   padding: 5px;
   text-decoration: none;
-  background-color: #FAF0E6; /* was #DCDCDC */
+  background-color: #DCDCDC; /* was #DCDCDC */
   z-index: 2;
 }
 
